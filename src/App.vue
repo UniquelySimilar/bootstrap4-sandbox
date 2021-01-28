@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container">
-    <variable-width-columns />
+    <horizontal-align-grid-columns />
   </div>
 </template>
 
@@ -10,7 +10,9 @@
   //import AutoLayout from '@/components/AutoLayout'
   //import ColumnWrapping from '@/components/ColumnWrapping'
   //import ResponsiveLayout from '@/components/ResponsiveLayout'
-  import VariableWidthColumns from '@/components/VariableWidthColumns'
+  //import VariableWidthColumns from '@/components/VariableWidthColumns'
+  //import VerticalAlignGridColumns from '@/components/VerticalAlignGridColumns'
+  import HorizontalAlignGridColumns from '@/components/HorizontalAlignGridColumns'
 
   export default {
     name: 'App',
@@ -20,7 +22,9 @@
       //AutoLayout,
       //ColumnWrapping,
       //ResponsiveLayout,
-      VariableWidthColumns
+      //VariableWidthColumns,
+      //VerticalAlignGridColumns
+      HorizontalAlignGridColumns
     }
   }
 </script>
